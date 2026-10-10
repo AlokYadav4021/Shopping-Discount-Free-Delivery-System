@@ -1,11 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Discount & Free Delivery System</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="cont">
+        <table>
+          <tr>
+            <td><label for="">Amount</label></td>
+            <td><input type="number" name="" id="Amount" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Are You Member</label></td>
+            <td class="Member">
+              <input type="radio" id="Yes" name="fav_language" value="HTML" />
+              <label for="Yes">Yes</label>
+              <input type="radio" id="Noo" name="fav_language" value="CSS" />
+              <label for="Noo">Noo</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Add Coupon Code</label></td>
+            <td><input type="text" name="" id="Coupon"></td>
+          </tr>
+          <tr>
+            <td><label for=""> Delivery Distance</label></td>
+            <td><input type="number" name="" id="Distance"></td>
+          </tr>
+          <tr>
+            <td colspan="2" id="output"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
